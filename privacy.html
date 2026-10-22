@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>Privacy Policy — Luma</title>
+  <meta name="description" content="How Luma for Mac stores information and connects to your chosen media sources.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Luma</a>
+    <nav aria-label="Main navigation"><a href="support.html">Support</a><a aria-current="page" href="privacy.html">Privacy</a></nav>
+  </header>
+  <main class="document">
+    <p class="eyebrow">Effective 23 October 2026</p>
+    <h1>Privacy policy</h1>
+    <p class="lead">Luma is a Mac media player for sources you choose. This policy describes the current pre-release app. We will update it before enabling production advertising or paid subscriptions.</p>
+
+    <section>
+      <h2>Information stored on your Mac</h2>
+      <p>Luma saves source names, addresses and settings locally. Xtream and WebDAV credentials are stored in the macOS Keychain. Imported M3U playlist and stream URLs are stored in an encrypted local file with its key in Keychain. Luma also caches source-supplied catalog and guide details, generated poster thumbnails, viewing progress, favorites and browsing choices to make the app responsive. Kids audio discovery may inspect media information from your chosen source after you start it; earlier users who enabled automatic discovery retain that setting.</p>
+      <p>The original offline sample can be used without a provider login. Its media is generated and stored locally.</p>
+    </section>
+    <section>
+      <h2>Connections to your chosen source</h2>
+      <p>When you add a provider account, playlist or WebDAV folder, Luma contacts the server you choose to request catalogs, guides and playback. That server receives the connection information needed to serve those requests, which may include credentials or tokens in provider-specific request URLs. Your provider may also see your network address. Check your provider’s privacy policy for its handling of those requests.</p>
+      <p>Luma defaults to HTTPS and requires your explicit choice for an initial HTTP source. A provider may redirect media to HTTP or supply HTTP playlist segments, which are not encrypted in transit. Luma does not provide or verify rights to third-party content.</p>
+    </section>
+    <section>
+      <h2>Advertising, purchases and analytics</h2>
+      <p>The current pre-release app does not request production ads, sell subscriptions, operate a Luma cloud account or run Luma-operated analytics. StoreKit can read verified Apple subscription entitlements, and Settings includes Restore Purchases and Manage Subscription controls, but paid enrollment is not yet active. Before ads or purchases become available, we will update this policy to describe the actual services and data they use.</p>
+    </section>
+    <section>
+      <h2>Removing information</h2>
+      <p>You can remove a source in Accounts or Connections. Luma removes the saved source and its credentials and clears account-owned viewing progress, source-specific favorites and associated catalog, guide and Kids audio data. Artwork with known ownership is removed; older artwork without ownership records may remain until its cache expires. If cleanup cannot finish immediately, Luma reports the failure and retries after relaunch. You can also remove the app’s local data through macOS.</p>
+    </section>
+    <section>
+      <h2>This website and contact</h2>
+      <p>These pages are hosted by GitHub Pages. Visiting them sends ordinary website requests to GitHub, which handles them under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>. These pages contain no third-party analytics scripts or advertising.</p>
+      <p>For privacy questions or help removing local data, email <a href="mailto:luma@dryg.nu">luma@dryg.nu</a>.</p>
+    </section>
+  </main>
+  <footer>© 2026 Luma · <a href="support.html">Support</a></footer>
+</body>
+</html>
