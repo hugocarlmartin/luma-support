@@ -14,9 +14,9 @@
     <nav aria-label="Main navigation"><a href="support.html">Support</a><a aria-current="page" href="privacy.html">Privacy</a></nav>
   </header>
   <main class="document">
-    <p class="eyebrow">Effective 25 October 2026</p>
+    <p class="eyebrow">Effective 27 October 2026</p>
     <h1>Privacy policy</h1>
-    <p class="lead">Luma is a media player and TV guide for Mac and Apple TV. It uses media sources you choose. This policy describes the information the current apps handle, including local Premium promotions on Mac and purchases through Apple.</p>
+    <p class="lead">Luma is a media player and TV guide for Mac and Apple TV. It uses media sources you choose. This policy describes the information the apps handle, including optional Apple TV playback diagnostics, local Premium promotions on Mac, and purchases through Apple.</p>
 
     <section>
       <h2>Information stored on your device</h2>
@@ -30,7 +30,12 @@
     </section>
     <section>
       <h2>Advertising, purchases and analytics</h2>
-      <p>Luma does not operate a cloud account or Luma-run analytics. The Mac app can display a static, locally bundled message about Luma Premium during free connected Live TV playback; this message makes no ad-network request. The Apple TV app does not display ads. No Google Ad Manager or other production ad network is active in these builds. Monthly and yearly Premium purchases, when offered in the app, are handled by Apple. Luma reads verified StoreKit transactions and subscription status to grant or restore access; Apple handles payment details under its own privacy policy. We will update this policy before enabling a third-party ad service or other new data collection.</p>
+      <p>Luma does not operate a cloud account or general usage analytics. The Mac app can display a static, locally bundled message about Luma Premium during free connected Live TV playback; this message makes no ad-network request. The Apple TV app does not display ads. No Google Ad Manager or other production ad network is active in these builds. Monthly and yearly Premium purchases, when offered in the app, are handled by Apple. Luma reads verified StoreKit transactions and subscription status to grant or restore access; Apple handles payment details under its own privacy policy. We will update this policy before enabling a third-party ad service or other new data collection.</p>
+    </section>
+    <section>
+      <h2>Optional Apple TV playback diagnostics</h2>
+      <p>In the Apple TV app, you can turn on Share playback diagnostics in Settings → About. It is off by default. When on, Luma sends a random identifier for each playback attempt, the app version and build, a broad content type (live channel, movie or episode), playback stages, elapsed time and a limited error code to codeandcrayon.com. This helps us investigate playback that stalls or fails on a physical Apple TV. The diagnostic event does not include your provider address, credentials, account identifier, stream URL, content title or raw player logs.</p>
+      <p>The server necessarily receives your network address to deliver the request, but the diagnostic event database does not store it. Diagnostic events are deleted after seven days. Turning the switch off stops new diagnostic uploads; existing events expire under the same schedule. This optional feature applies to Apple TV only and is not active in older builds that lack the switch.</p>
     </section>
     <section>
       <h2>Removing information</h2>
